@@ -1,0 +1,554 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BINCOLOR	src/Makefile	/^BINCOLOR="\\033[37;1m"$/;"	m
+CCCOLOR	src/Makefile	/^CCCOLOR="\\033[34m"$/;"	m
+COM_MOMO_INFQ_BG_JOB_H	src/bg_job.h	9;"	d
+COM_MOMO_INFQ_FILE_BLOCK_H	src/file_block.h	9;"	d
+COM_MOMO_INFQ_FILE_BLOCK_INDEX_H	src/file_block_index.h	9;"	d
+COM_MOMO_INFQ_FILE_QUEUE_H	src/file_queue.h	9;"	d
+COM_MOMO_INFQ_INFQ_BG_JOBS_H	src/infq_bg_jobs.h	9;"	d
+COM_MOMO_INFQ_INFQ_H	src/infq.h	9;"	d
+COM_MOMO_INFQ_LOGGING_H	src/logging.h	9;"	d
+COM_MOMO_INFQ_MEM_BLOCK_H	src/mem_block.h	9;"	d
+COM_MOMO_INFQ_MEM_QUEUE_H	src/mem_queue.h	9;"	d
+COM_MOMO_INFQ_OFFSET_ARRAY_H	src/offset_array.h	11;"	d
+COM_MOMO_INFQ_THREAD_SAFE_INFQ_H	src/thread_safe_infq.h	9;"	d
+COM_MOMO_INFQ_UTILS_H	src/utils.h	9;"	d
+COM_MOMO_INFQ_VERSION_MANAGER_H	src/version_manager.h	11;"	d
+DEBUG	src/Makefile	/^DEBUG=-g -ggdb$/;"	m
+DEFAULT_FILE_PATH	test/file_block_test.cpp	/^const char *DEFAULT_FILE_PATH = ".\/file_blocks";$/;"	v
+DEFAULT_OFFSET_ARRAY_SIZE	src/offset_array.c	15;"	d	file:
+ENDCOLOR	src/Makefile	/^ENDCOLOR="\\033[0m"$/;"	m
+ERR	test/file_block_test.cpp	13;"	d	file:
+ERR	test/mem_block_test.cpp	12;"	d	file:
+ERR	test/mem_queue_test.cpp	13;"	d	file:
+FINAL_CFLAGS	src/Makefile	/^FINAL_CFLAGS=$(STD) $(WARN) $(OPT) $(CFLAGS) $(DEBUG)$/;"	m
+FINAL_LDFLAGS	src/Makefile	/^FINAL_LDFLAGS=$(LDFLAGS) $(DEBUG)$/;"	m
+FileBlockTest	test/file_block_test.cpp	/^    FileBlockTest() {}$/;"	f	class:FileBlockTest
+FileBlockTest	test/file_block_test.cpp	/^class FileBlockTest: public testing::Test {$/;"	c	file:
+INFQ_AR	src/Makefile	/^INFQ_AR=$(QUIET_AR)ar crv$/;"	m
+INFQ_ASSERT	src/logging.h	26;"	d
+INFQ_CC	src/Makefile	/^INFQ_CC=$(QUIET_CC)$(CC) $(FINAL_CFLAGS)$/;"	m
+INFQ_CHECK_LOAD_PER_CALLS	src/infq.c	23;"	d	file:
+INFQ_DEBUG_LEVEL	src/logging.h	14;"	d
+INFQ_DEBUG_LOG	src/logging.h	18;"	d
+INFQ_DEFAULT_INDEX_CAPACITY	src/file_block_index.c	13;"	d	file:
+INFQ_DEFAULT_MEM_BLOCK_USAGE	src/infq.c	22;"	d	file:
+INFQ_DUMP_BG_EXEC	src/infq.h	25;"	d
+INFQ_DUMP_META_LEN	src/infq.c	25;"	d	file:
+INFQ_DUMP_TEST_BIN	src/Makefile	/^INFQ_DUMP_TEST_BIN=dump_test$/;"	m
+INFQ_ERR	src/infq.h	16;"	d
+INFQ_ERROR_LEVEL	src/logging.h	16;"	d
+INFQ_ERROR_LOG	src/logging.h	22;"	d
+INFQ_ERROR_LOG_BY_ERRNO	src/logging.h	24;"	d
+INFQ_FALSE	src/infq.h	19;"	d
+INFQ_FILE_BLOCK_PREFIX	src/file_block.c	/^char *INFQ_FILE_BLOCK_PREFIX = "file_block";$/;"	v
+INFQ_FILE_BLOCK_READER_BIN	src/Makefile	/^INFQ_FILE_BLOCK_READER_BIN=file_block_reader$/;"	m
+INFQ_FILE_TYPE_FILE_BLOCK	src/version_manager.h	13;"	d
+INFQ_FILE_TYPE_POP_BLOCK	src/version_manager.h	14;"	d
+INFQ_INFO_LEVEL	src/logging.h	15;"	d
+INFQ_INFO_LOG	src/logging.h	20;"	d
+INFQ_IO_BUF_UNIT	src/file_block.c	21;"	d	file:
+INFQ_LD	src/Makefile	/^INFQ_LD=$(QUIET_LINK)$(CC) $(FINAL_LDFLAGS)$/;"	m
+INFQ_LIB	src/Makefile	/^INFQ_LIB=libinfq.a$/;"	m
+INFQ_LOAD_BG_EXEC	src/infq.h	26;"	d
+INFQ_LOAD_TEST_BIN	src/Makefile	/^INFQ_LOAD_TEST_BIN=load_test$/;"	m
+INFQ_LOG_THRESHOLD	src/bg_job.c	15;"	d	file:
+INFQ_MAGIC_NUMBER	src/infq.h	21;"	d
+INFQ_MAX_BUF_SIZE	src/infq.h	22;"	d
+INFQ_MAX_ERR_MSG_LEN	src/logging.c	17;"	d	file:
+INFQ_MAX_LOG_LEN	src/logging.c	16;"	d	file:
+INFQ_MAX_PATH_SIZE	src/infq.h	23;"	d
+INFQ_META_INFO_LEN	src/file_block.c	20;"	d	file:
+INFQ_NAME_MAX_LEN	src/infq.c	26;"	d	file:
+INFQ_NO_RETURN	src/infq.c	24;"	d	file:
+INFQ_OBJ	src/Makefile	/^INFQ_OBJ=bg_job.o file_block.o file_block_index.o file_queue.o infq.o logging.o mem_block.o mem_queue.o offset_array.o utils.o sha1.o infq_bg_jobs.o$/;"	m
+INFQ_OK	src/infq.h	15;"	d
+INFQ_PADDING_MASK	src/mem_block.h	22;"	d
+INFQ_POP_BLOCK_PREFIX	src/infq.c	/^char *INFQ_POP_BLOCK_PREFIX = "pop_block";$/;"	v
+INFQ_SIGNATURE_LEN	src/file_block.h	19;"	d
+INFQ_TEST_BIN	src/Makefile	/^INFQ_TEST_BIN=infq_test$/;"	m
+INFQ_TRUE	src/infq.h	18;"	d
+INFQ_UNDEF	src/infq.h	17;"	d
+INFQ_UNLINK_BG_EXEC	src/infq.h	27;"	d
+INFQ_VERSION	src/infq.c	/^char *INFQ_VERSION = "v0.1.0";$/;"	v
+INSTALL	src/Makefile	/^INSTALL=$(QUIET_INSTALL)$(INSTALL)$/;"	m
+InitSingleBlk	test/file_block_test.cpp	/^    void InitSingleBlk() {$/;"	f	class:FileBlockTest
+LINKCOLOR	src/Makefile	/^LINKCOLOR="\\033[34;1m"$/;"	m
+MAKECOLOR	src/Makefile	/^MAKECOLOR="\\033[32;1m"$/;"	m
+MAX_FILENAME_CHARS	src/file_block.h	18;"	d
+MAX_PATH_CHARS	src/file_block_reader.c	14;"	d	file:
+MemBlockTest	test/mem_block_test.cpp	/^    MemBlockTest() {}$/;"	f	class:MemBlockTest
+MemBlockTest	test/mem_block_test.cpp	/^class MemBlockTest: public testing::Test {$/;"	c	file:
+MemQueueTest	test/mem_queue_test.cpp	/^    MemQueueTest() {}$/;"	f	class:MemQueueTest
+MemQueueTest	test/mem_queue_test.cpp	/^class MemQueueTest: public testing::Test {$/;"	c	file:
+OK	test/file_block_test.cpp	14;"	d	file:
+OK	test/mem_block_test.cpp	13;"	d	file:
+OK	test/mem_queue_test.cpp	14;"	d	file:
+OPT	src/Makefile	/^OPT=$(OPTIMIZATION)$/;"	m
+OPTIMIZATION	src/Makefile	/^OPTIMIZATION?=-O2$/;"	m
+QUIET_AR	src/Makefile	/^QUIET_AR = @printf '    %b %b\\n' $(LINKCOLOR)AR$(ENDCOLOR) $(BINCOLOR)$@$(ENDCOLOR) 1>&2;$/;"	m
+QUIET_CC	src/Makefile	/^QUIET_CC = @printf '    %b %b\\n' $(CCCOLOR)CC$(ENDCOLOR) $(SRCCOLOR)$@$(ENDCOLOR) 1>&2;$/;"	m
+QUIET_INSTALL	src/Makefile	/^QUIET_INSTALL = @printf '    %b %b\\n' $(LINKCOLOR)INSTALL$(ENDCOLOR) $(BINCOLOR)$@$(ENDCOLOR) 1>&2;$/;"	m
+QUIET_LINK	src/Makefile	/^QUIET_LINK = @printf '    %b %b\\n' $(LINKCOLOR)LINK$(ENDCOLOR) $(BINCOLOR)$@$(ENDCOLOR) 1>&2;$/;"	m
+R0	src/sha1.c	47;"	d	file:
+R1	src/sha1.c	48;"	d	file:
+R2	src/sha1.c	49;"	d	file:
+R3	src/sha1.c	50;"	d	file:
+R4	src/sha1.c	51;"	d	file:
+SHA1Final	src/sha1.c	/^void SHA1Final(unsigned char digest[20], SHA1_CTX* context)$/;"	f
+SHA1HANDSOFF	src/sha1.c	22;"	d	file:
+SHA1Init	src/sha1.c	/^void SHA1Init(SHA1_CTX* context)$/;"	f
+SHA1Transform	src/sha1.c	/^void SHA1Transform(u_int32_t state[5], const unsigned char buffer[64])$/;"	f
+SHA1Update	src/sha1.c	/^void SHA1Update(SHA1_CTX* context, const unsigned char* data, u_int32_t len)$/;"	f
+SHA1_CTX	src/sha1.h	/^} SHA1_CTX;$/;"	t	typeref:struct:__anon1
+SRCCOLOR	src/Makefile	/^SRCCOLOR="\\033[33m"$/;"	m
+STD	src/Makefile	/^STD=-std=c99$/;"	m
+SetUp	test/file_block_test.cpp	/^    virtual void SetUp() {$/;"	f	class:FileBlockTest
+SetUp	test/mem_block_test.cpp	/^    virtual void SetUp() {$/;"	f	class:MemBlockTest
+SetUp	test/mem_queue_test.cpp	/^    virtual void SetUp() {$/;"	f	class:MemQueueTest
+TEST_F	test/file_block_test.cpp	/^TEST_F(FileBlockTest, at_ok)$/;"	f
+TEST_F	test/file_block_test.cpp	/^TEST_F(FileBlockTest, load_ok)$/;"	f
+TEST_F	test/file_block_test.cpp	/^TEST_F(FileBlockTest, write_err_invalid_param)$/;"	f
+TEST_F	test/file_block_test.cpp	/^TEST_F(FileBlockTest, write_ok)$/;"	f
+TEST_F	test/mem_block_test.cpp	/^TEST_F(MemBlockTest, at_err_idx_outof_range)$/;"	f
+TEST_F	test/mem_block_test.cpp	/^TEST_F(MemBlockTest, at_err_invalid_param)$/;"	f
+TEST_F	test/mem_block_test.cpp	/^TEST_F(MemBlockTest, at_err_no_enough_mem)$/;"	f
+TEST_F	test/mem_block_test.cpp	/^TEST_F(MemBlockTest, at_ok1)$/;"	f
+TEST_F	test/mem_block_test.cpp	/^TEST_F(MemBlockTest, at_ok2)$/;"	f
+TEST_F	test/mem_block_test.cpp	/^TEST_F(MemBlockTest, pop_empty1)$/;"	f
+TEST_F	test/mem_block_test.cpp	/^TEST_F(MemBlockTest, pop_empty2)$/;"	f
+TEST_F	test/mem_block_test.cpp	/^TEST_F(MemBlockTest, pop_err_invalid_param)$/;"	f
+TEST_F	test/mem_block_test.cpp	/^TEST_F(MemBlockTest, pop_err_no_enough_mem)$/;"	f
+TEST_F	test/mem_block_test.cpp	/^TEST_F(MemBlockTest, pop_ok)$/;"	f
+TEST_F	test/mem_block_test.cpp	/^TEST_F(MemBlockTest, push_err_invalid_param)$/;"	f
+TEST_F	test/mem_block_test.cpp	/^TEST_F(MemBlockTest, push_err_no_enough_mem)$/;"	f
+TEST_F	test/mem_block_test.cpp	/^TEST_F(MemBlockTest, push_ok1)$/;"	f
+TEST_F	test/mem_block_test.cpp	/^TEST_F(MemBlockTest, push_ok2)$/;"	f
+TEST_F	test/mem_block_test.cpp	/^TEST_F(MemBlockTest, push_padding_ok)$/;"	f
+TEST_F	test/mem_block_test.cpp	/^TEST_F(MemBlockTest, top_err_invalid_param)$/;"	f
+TEST_F	test/mem_block_test.cpp	/^TEST_F(MemBlockTest, top_err_no_enough_mem)$/;"	f
+TEST_F	test/mem_block_test.cpp	/^TEST_F(MemBlockTest, top_ok1)$/;"	f
+TEST_F	test/mem_block_test.cpp	/^TEST_F(MemBlockTest, top_ok2)$/;"	f
+TEST_F	test/mem_block_test.cpp	/^TEST_F(MemBlockTest, top_ok_empty)$/;"	f
+TEST_F	test/mem_block_test.cpp	/^TEST_F(MemBlockTest, top_zero_cp_ok)$/;"	f
+TEST_F	test/mem_queue_test.cpp	/^TEST_F(MemQueueTest, at_err_invalid_idx)$/;"	f
+TEST_F	test/mem_queue_test.cpp	/^TEST_F(MemQueueTest, at_err_invalid_param)$/;"	f
+TEST_F	test/mem_queue_test.cpp	/^TEST_F(MemQueueTest, at_ok_empty)$/;"	f
+TEST_F	test/mem_queue_test.cpp	/^TEST_F(MemQueueTest, at_ok_multi_block)$/;"	f
+TEST_F	test/mem_queue_test.cpp	/^TEST_F(MemQueueTest, at_ok_multi_block_start_index)$/;"	f
+TEST_F	test/mem_queue_test.cpp	/^TEST_F(MemQueueTest, pop_err_invalid_param)$/;"	f
+TEST_F	test/mem_queue_test.cpp	/^TEST_F(MemQueueTest, pop_err_no_enough_mem)$/;"	f
+TEST_F	test/mem_queue_test.cpp	/^TEST_F(MemQueueTest, pop_ok_empty)$/;"	f
+TEST_F	test/mem_queue_test.cpp	/^TEST_F(MemQueueTest, pop_ok_mult_elements)$/;"	f
+TEST_F	test/mem_queue_test.cpp	/^TEST_F(MemQueueTest, pop_ok_multi_blocks)$/;"	f
+TEST_F	test/mem_queue_test.cpp	/^TEST_F(MemQueueTest, pop_ok_single_element)$/;"	f
+TEST_F	test/mem_queue_test.cpp	/^TEST_F(MemQueueTest, push_err_block_full)$/;"	f
+TEST_F	test/mem_queue_test.cpp	/^TEST_F(MemQueueTest, push_err_block_null)$/;"	f
+TEST_F	test/mem_queue_test.cpp	/^TEST_F(MemQueueTest, push_err_invalid_param)$/;"	f
+TEST_F	test/mem_queue_test.cpp	/^TEST_F(MemQueueTest, push_ok1)$/;"	f
+TEST_F	test/mem_queue_test.cpp	/^TEST_F(MemQueueTest, push_ok2)$/;"	f
+TearDown	test/file_block_test.cpp	/^    virtual void TearDown() {$/;"	f	class:FileBlockTest
+TearDown	test/mem_block_test.cpp	/^    virtual void TearDown() {$/;"	f	class:MemBlockTest
+TearDown	test/mem_queue_test.cpp	/^    virtual void TearDown() {$/;"	f	class:MemQueueTest
+WARN	src/Makefile	/^WARN=-Wall -W$/;"	m
+_bg_exec_t	src/bg_job.h	/^typedef struct _bg_exec_t {$/;"	s
+_bg_job_t	src/bg_job.h	/^typedef struct _bg_job_t {$/;"	s
+_file_block_index_t	src/file_block_index.h	/^typedef struct _file_block_index_t {$/;"	s
+_file_block_t	src/file_block.h	/^typedef struct _file_block_t {$/;"	s
+_file_dump_meta_t	src/infq.h	/^typedef struct _file_dump_meta_t {$/;"	s
+_file_list_t	src/version_manager.h	/^typedef struct _file_list_t {$/;"	s
+_file_queue_t	src/file_queue.h	/^typedef struct _file_queue_t {$/;"	s
+_file_suffix_range	src/infq.h	/^typedef struct _file_suffix_range {$/;"	s
+_infq_bg_exec_stats_t	src/infq.h	/^typedef struct _infq_bg_exec_stats_t {$/;"	s
+_infq_config_t	src/infq.h	/^typedef struct _infq_config_t {$/;"	s
+_infq_dump_meta_t	src/infq.h	/^typedef struct _infq_dump_meta_t {$/;"	s
+_infq_stats_t	src/infq.h	/^typedef struct _infq_stats_t {$/;"	s
+_infq_t	src/infq.c	/^struct _infq_t {$/;"	s	file:
+_logging_t	src/logging.c	/^struct _logging_t {$/;"	s	file:
+_mem_block_t	src/mem_block.h	/^typedef struct _mem_block_t {$/;"	s
+_mem_queue_t	src/mem_queue.h	/^typedef struct _mem_queue_t {$/;"	s
+_offset_array_t	src/offset_array.h	/^typedef struct _offset_array_t {$/;"	s
+_popq_dump_meta_t	src/infq.h	/^typedef struct _popq_dump_meta_t {$/;"	s
+_ts_infq_t	src/thread_safe_infq.c	/^struct _ts_infq_t {$/;"	s	file:
+_unlink_job_t	src/infq_bg_jobs.h	/^typedef struct _unlink_job_t {$/;"	s
+_version_manager_t	src/version_manager.h	/^typedef struct _version_manager_t {$/;"	s
+arg	src/bg_job.h	/^    void                *arg;$/;"	m	struct:_bg_job_t
+at_test	src/main.c	/^void at_test(infq_t *q)$/;"	f
+backup_dump_meta	src/infq.c	31;"	d	file:
+bg_exec_add_job	src/bg_job.c	/^bg_exec_add_job($/;"	f
+bg_exec_continue	src/bg_job.c	/^bg_exec_continue(bg_exec_t *exec)$/;"	f
+bg_exec_continue_if_suspended	src/bg_job.c	/^bg_exec_continue_if_suspended(bg_exec_t *exec)$/;"	f
+bg_exec_destroy	src/bg_job.c	/^bg_exec_destroy(bg_exec_t *exec)$/;"	f
+bg_exec_distinct_job	src/bg_job.c	/^bg_exec_distinct_job(bg_exec_t *exec, job_dup_check_t dup_checker, void *job, int32_t *is_dup)$/;"	f
+bg_exec_init	src/bg_job.c	/^bg_exec_init(bg_exec_t *exec, const char *name)$/;"	f
+bg_exec_pending_task_num	src/bg_job.c	/^bg_exec_pending_task_num(bg_exec_t *exec)$/;"	f
+bg_exec_run	src/bg_job.c	/^bg_exec_run(void *arg)$/;"	f
+bg_exec_stop	src/bg_job.c	/^bg_exec_stop(bg_exec_t *exec)$/;"	f
+bg_exec_suspend	src/bg_job.c	/^bg_exec_suspend(bg_exec_t *exec)$/;"	f
+bg_exec_t	src/bg_job.h	/^} bg_exec_t;$/;"	t	typeref:struct:_bg_exec_t
+bg_job_t	src/bg_job.h	/^} bg_job_t;$/;"	t	typeref:struct:_bg_job_t
+blk	src/sha1.c	43;"	d	file:
+blk0	src/sha1.c	36;"	d	file:
+blk0	src/sha1.c	39;"	d	file:
+block_capacity	src/file_block_index.h	/^    int32_t         block_capacity;$/;"	m	struct:_file_block_index_t
+block_head	src/file_queue.h	/^    file_block_t        *block_head, *block_tail;   \/* All the blocks in a file queue are organized into$/;"	m	struct:_file_queue_t
+block_num	src/file_queue.h	/^    volatile int32_t    block_num;                  \/* Number of the blocks in the file queue *\/$/;"	m	struct:_file_queue_t
+block_num	src/infq.h	/^    int32_t             block_num;$/;"	m	struct:_file_dump_meta_t
+block_num	src/infq.h	/^    int32_t             block_num;$/;"	m	struct:_popq_dump_meta_t
+block_num	src/infq_bg_jobs.h	/^    int32_t     block_num;$/;"	m	struct:dump_job_t
+block_num	src/mem_queue.h	/^    int32_t                 block_num;$/;"	m	struct:_mem_queue_t
+block_size	src/infq.h	/^    int32_t             block_size;$/;"	m	struct:_popq_dump_meta_t
+block_suffix	src/file_queue.h	/^    int32_t             block_suffix;               \/* Suffix of the file block which will be appended soon *\/$/;"	m	struct:_file_queue_t
+block_tail	src/file_queue.h	/^    file_block_t        *block_head, *block_tail;   \/* All the blocks in a file queue are organized into$/;"	m	struct:_file_queue_t
+block_usage_to_dump	src/infq.c	/^    float               block_usage_to_dump;    \/* When the percentage of used memory blocks in push queue$/;"	m	struct:_infq_t	file:
+block_usage_to_dump	src/infq.h	/^    float       block_usage_to_dump;    \/* When the percentage of used memory blocks in push queue$/;"	m	struct:_infq_config_t
+blocks	src/file_block_index.h	/^    file_block_t    **blocks;$/;"	m	struct:_file_block_index_t
+blocks	src/mem_queue.h	/^    mem_block_t             **blocks;$/;"	m	struct:_mem_queue_t
+buffer	src/sha1.h	/^    unsigned char buffer[64];$/;"	m	struct:__anon1
+capacity	src/offset_array.h	/^    int32_t     capacity;$/;"	m	struct:_offset_array_t
+check_and_trigger_loader	src/infq.c	/^check_and_trigger_loader(infq_t *infq)$/;"	f
+check_at	src/main.c	/^void check_at(infq_t *q)$/;"	f
+cond	src/bg_job.h	/^    pthread_cond_t      cond;$/;"	m	struct:_bg_exec_t
+count	src/sha1.h	/^    u_int32_t count[2];$/;"	m	struct:__anon1
+cur_dump_meta	src/infq.c	30;"	d	file:
+cur_meta_idx	src/infq.c	/^    int32_t             cur_meta_idx;           \/* Index of current dump meta *\/$/;"	m	struct:_infq_t	file:
+data_path	src/infq.h	/^    const char  *data_path;             \/* File path to store files of InfQ *\/$/;"	m	struct:_infq_config_t
+debug	src/logging.c	/^    infq_log_t    debug, info, error;$/;"	m	struct:_logging_t	file:
+default_conf	src/infq.c	/^infq_config_t default_conf = {$/;"	v
+default_debug	src/logging.c	/^default_debug(const char *msg)$/;"	f
+default_error	src/logging.c	/^default_error(const char *msg)$/;"	f
+default_info	src/logging.c	/^default_info(const char *msg)$/;"	f
+destory	src/bg_job.h	/^    destroy_t           destory;$/;"	m	struct:_bg_job_t
+destroy_t	src/bg_job.h	/^typedef void (*destroy_t)(void *arg);$/;"	t
+do_pop	src/main.c	/^do_pop(infq_t *q, int n)$/;"	f
+dump_exec	src/infq.c	/^    bg_exec_t           dump_exec, load_exec, unlink_exec; \/* Background executor of dumper, loader$/;"	m	struct:_infq_t	file:
+dump_job	src/infq.c	/^dump_job(void *arg)$/;"	f
+dump_job_dup_checker	src/infq_bg_jobs.c	/^dump_job_dup_checker(void *arg, void *last_job)$/;"	f
+dump_job_t	src/infq_bg_jobs.h	/^struct dump_job_t {$/;"	s
+dump_job_tostr	src/infq_bg_jobs.c	/^dump_job_tostr(void *arg, char *buf, int32_t size)$/;"	f
+dump_meta_double_buf	src/infq.c	/^    infq_dump_meta_t    *dump_meta_double_buf;  \/* Persistent status of a dumped InfQ.$/;"	m	struct:_infq_t	file:
+dump_meta_len	src/infq.c	28;"	d	file:
+dump_pop_queue_if_need	src/infq.c	/^dump_pop_queue_if_need(infq_t *infq, popq_dump_meta_t *meta)$/;"	f
+dump_push_queue	src/infq.c	/^dump_push_queue(infq_t *infq)$/;"	f
+dump_test	src/main.c	/^void dump_test(infq_t *q, int block_num)$/;"	f
+dumper	src/infq.h	/^    infq_bg_exec_stats_t    dumper;$/;"	m	struct:_infq_stats_t
+ele_count	src/file_block.h	/^    volatile int32_t        ele_count;          \/* Element count *\/$/;"	m	struct:_file_block_t
+ele_count	src/file_queue.h	/^    volatile int32_t    ele_count;                  \/* Element count *\/$/;"	m	struct:_file_queue_t
+ele_count	src/infq.h	/^    int32_t             ele_count;$/;"	m	struct:_file_dump_meta_t
+ele_count	src/infq.h	/^    int32_t             ele_count;$/;"	m	struct:_popq_dump_meta_t
+ele_count	src/mem_block.h	/^    volatile int32_t    ele_count;      \/* Elements count *\/$/;"	m	struct:_mem_block_t
+ele_count	src/mem_queue.h	/^    volatile int32_t        ele_count;$/;"	m	struct:_mem_queue_t
+empty_block_pop_callback	src/infq.c	/^empty_block_pop_callback(void *arg, mem_block_t *blk)$/;"	f
+end	src/infq.h	/^    int32_t     end;$/;"	m	struct:_file_suffix_range
+end_block	src/infq_bg_jobs.h	/^    int32_t     end_block;$/;"	m	struct:dump_job_t
+error	src/logging.c	/^    infq_log_t    debug, info, error;$/;"	m	struct:_logging_t	file:
+fd	src/file_block.h	/^    int32_t                 fd;                 \/* File descriptor of the file block.$/;"	m	struct:_file_block_t
+fetch_readable_signatrue	src/file_block.c	/^fetch_readable_signatrue(unsigned char digest[20], char *buf, int32_t len)$/;"	f
+file_block	test/file_block_test.cpp	/^    file_block_t    file_block;$/;"	m	class:FileBlockTest	file:
+file_block_at	src/file_block.c	/^file_block_at($/;"	f
+file_block_debug_info	src/file_block.c	/^file_block_debug_info(const file_block_t *file_block, char *buf, int32_t size)$/;"	f
+file_block_destroy	src/file_block.c	/^void file_block_destroy(file_block_t *file_block)$/;"	f
+file_block_file_delete	src/file_block.c	/^int32_t file_block_file_delete(file_block_t *file_block)$/;"	f
+file_block_index_destroy	src/file_block_index.c	/^file_block_index_destroy(file_block_index_t *index)$/;"	f
+file_block_index_init	src/file_block_index.c	/^file_block_index_init(file_block_index_t *index)$/;"	f
+file_block_index_pop	src/file_block_index.c	/^file_block_index_pop(file_block_index_t *index)$/;"	f
+file_block_index_push	src/file_block_index.c	/^file_block_index_push(file_block_index_t *index, file_block_t *file_block)$/;"	f
+file_block_index_search	src/file_block_index.c	/^file_block_index_search(file_block_index_t *index, int64_t global_idx, file_block_t **file_block)$/;"	f
+file_block_index_t	src/file_block_index.h	/^} file_block_index_t;$/;"	t	typeref:struct:_file_block_index_t
+file_block_init	src/file_block.c	/^file_block_init(file_block_t *file_block, const char *file_path, const char *file_prefix)$/;"	f
+file_block_load	src/file_block.c	/^file_block_load(file_block_t *file_block, mem_block_t *mem_block)$/;"	f
+file_block_load_header	src/file_block.c	/^file_block_load_header(file_block_t *file_block)$/;"	f
+file_block_no	src/infq_bg_jobs.h	/^    int32_t file_block_no;$/;"	m	struct:_unlink_job_t
+file_block_no	src/mem_block.h	/^    int32_t             file_block_no;  \/* When memory block is loaded from a file block, 'file_block_no'$/;"	m	struct:_mem_block_t
+file_block_sync	src/file_block.c	/^file_block_sync(const file_block_t *file_block)$/;"	f
+file_block_t	src/file_block.h	/^} file_block_t;$/;"	t	typeref:struct:_file_block_t
+file_block_write	src/file_block.c	/^file_block_write(file_block_t *file_block, int32_t suffix, mem_block_t *mem_block)$/;"	f
+file_dump_meta_t	src/infq.h	/^} file_dump_meta_t;$/;"	t	typeref:struct:_file_dump_meta_t
+file_end_block	src/infq_bg_jobs.h	/^    int32_t     file_end_block;$/;"	m	struct:load_job_t
+file_fetch_signature	src/file_block.c	/^file_fetch_signature(const char *file_path, unsigned char digest[20])$/;"	f
+file_list_t	src/version_manager.h	/^} file_list_t;$/;"	t	typeref:struct:_file_list_t
+file_lists	src/version_manager.h	/^    file_list_t     *file_lists;$/;"	m	struct:_version_manager_t
+file_lists_capacity	src/version_manager.h	/^    int32_t         file_lists_capacity;$/;"	m	struct:_version_manager_t
+file_lists_size	src/version_manager.h	/^    int32_t         file_lists_size;$/;"	m	struct:_version_manager_t
+file_meta	src/infq.h	/^    file_dump_meta_t    file_meta;$/;"	m	struct:_infq_dump_meta_t
+file_path	src/file_block.h	/^    const char              *file_path;         \/* A char pointer points to the path which the files$/;"	m	struct:_file_block_t
+file_path	src/file_queue.h	/^    char                *file_path;                 \/* File path used to store files of InfQ *\/$/;"	m	struct:_file_queue_t
+file_path	src/infq.h	/^    const char          *file_path;$/;"	m	struct:_infq_dump_meta_t
+file_path	src/infq_bg_jobs.h	/^    char *file_path;$/;"	m	struct:_unlink_job_t
+file_path	test/file_block_test.cpp	/^    char            file_path[100];$/;"	m	class:FileBlockTest	file:
+file_path_len	src/infq.h	/^    int32_t             file_path_len;$/;"	m	struct:_infq_dump_meta_t
+file_prefix	src/file_block.h	/^    const char              *file_prefix;       \/* Prefix of the file's name of the file block.$/;"	m	struct:_file_block_t
+file_prefix	src/infq_bg_jobs.h	/^    char *file_prefix;$/;"	m	struct:_unlink_job_t
+file_queue	src/infq.c	/^    file_queue_t        file_queue;$/;"	m	struct:_infq_t	file:
+file_queue_add_block_by_file	src/file_queue.c	/^file_queue_add_block_by_file(file_queue_t *file_queue, int32_t file_suffix)$/;"	f
+file_queue_at	src/file_queue.c	/^int32_t file_queue_at($/;"	f
+file_queue_destroy	src/file_queue.c	/^file_queue_destroy(file_queue_t *file_queue)$/;"	f
+file_queue_destroy_completely	src/file_queue.c	/^file_queue_destroy_completely(file_queue_t *file_queue)$/;"	f
+file_queue_dump_block	src/file_queue.c	/^int32_t file_queue_dump_block(file_queue_t *file_queue, mem_block_t *mem_block)$/;"	f
+file_queue_empty	src/file_queue.c	/^file_queue_empty(file_queue_t *file_queue)$/;"	f
+file_queue_init	src/file_queue.c	/^file_queue_init(file_queue_t *file_queue, const char *data_path)$/;"	f
+file_queue_load_block	src/file_queue.c	/^int32_t file_queue_load_block(file_queue_t *file_queue, mem_block_t *mem_block)$/;"	f
+file_queue_reset	src/file_queue.c	/^file_queue_reset(file_queue_t *file_queue) {$/;"	f
+file_queue_t	src/file_queue.h	/^} file_queue_t;$/;"	t	typeref:struct:_file_queue_t
+file_range	src/infq.h	/^    file_suffix_range   file_range;$/;"	m	struct:_file_dump_meta_t
+file_range	src/infq.h	/^    file_suffix_range   file_range;$/;"	m	struct:_popq_dump_meta_t
+file_size	src/file_block.h	/^    int32_t                 file_size;          \/* Size of the file *\/$/;"	m	struct:_file_block_t
+file_size	src/infq.h	/^    int32_t                 file_size;$/;"	m	struct:_infq_stats_t
+file_size	src/infq.h	/^    int32_t             file_size;$/;"	m	struct:_file_dump_meta_t
+file_start_block	src/infq_bg_jobs.h	/^    int32_t     file_start_block;$/;"	m	struct:load_job_t
+file_suffix_range	src/infq.h	/^} file_suffix_range;$/;"	t	typeref:struct:_file_suffix_range
+file_type	src/version_manager.h	/^    int32_t     file_type;$/;"	m	struct:_file_list_t
+fileq_blocks_num	src/infq.h	/^    int32_t                 fileq_blocks_num;$/;"	m	struct:_infq_stats_t
+first	src/file_block_index.h	/^    int32_t         first;$/;"	m	struct:_file_block_index_t
+first_block	src/mem_queue.h	/^    volatile int32_t        first_block;$/;"	m	struct:_mem_queue_t
+first_block	src/mem_queue.h	13;"	d
+first_offset	src/mem_block.h	/^    int32_t             first_offset;   \/* Offset of the first element *\/$/;"	m	struct:_mem_block_t
+full_block_push_callback	src/infq.c	/^full_block_push_callback(void *arg)$/;"	f
+g_logging_level	src/logging.c	/^int32_t     g_logging_level = INFQ_DEBUG_LEVEL;$/;"	v
+gen_file_path	src/utils.c	/^gen_file_path($/;"	f
+global_ele_idx	src/infq.c	/^    int64_t             global_ele_idx;         \/* Index of the next element pushed *\/$/;"	m	struct:_infq_t	file:
+global_ele_idx	src/infq.h	/^    int64_t             global_ele_idx;$/;"	m	struct:_infq_dump_meta_t
+id	test/mem_queue_test.cpp	/^    int             id;$/;"	m	class:MemQueueTest	file:
+idx_in_fblock	src/file_block_index.c	14;"	d	file:
+idx_in_mblock	src/mem_queue.c	14;"	d	file:
+index	src/file_queue.h	/^    file_block_index_t  index;                      \/* An index used to search a file block by global index *\/$/;"	m	struct:_file_queue_t
+info	src/logging.c	/^    infq_log_t    debug, info, error;$/;"	m	struct:_logging_t	file:
+infq	src/infq_bg_jobs.h	/^    infq_t      *infq;$/;"	m	struct:dump_job_t
+infq	src/infq_bg_jobs.h	/^    infq_t      *infq;$/;"	m	struct:load_job_t
+infq_assert	src/logging.c	/^infq_assert(const char *file, int32_t lineno, const char *condition, const char *fmt, ...)$/;"	f
+infq_at	src/infq.c	/^infq_at(infq_t *infq, int64_t idx, void *buf, int32_t buf_size, int32_t *sizeptr)$/;"	f
+infq_at_zero_cp	src/infq.c	/^infq_at_zero_cp(infq_t *infq, int64_t idx, const void ** dataptr, int32_t *sizeptr)$/;"	f
+infq_bg_exec_stats_t	src/infq.h	/^} infq_bg_exec_stats_t;$/;"	t	typeref:struct:_infq_bg_exec_stats_t
+infq_check_popq	src/infq.c	/^infq_check_popq(infq_t *infq)$/;"	f
+infq_check_pushq	src/infq.c	/^infq_check_pushq(infq_t *infq)$/;"	f
+infq_check_q	src/infq.c	/^infq_check_q(mem_queue_t *q, pthread_mutex_t *mu)$/;"	f
+infq_config_logging	src/logging.c	/^infq_config_logging(int32_t level, infq_log_t debug, infq_log_t info, infq_log_t error)$/;"	f
+infq_config_t	src/infq.h	/^} infq_config_t;$/;"	t	typeref:struct:_infq_config_t
+infq_continue_bg_exec	src/infq.c	/^int32_t infq_continue_bg_exec(infq_t *infq, int32_t exec_type)$/;"	f
+infq_continue_bg_exec_if_suspended	src/infq.c	/^int32_t infq_continue_bg_exec_if_suspended(infq_t *infq, int32_t exec_type)$/;"	f
+infq_debug_info	src/infq.c	/^infq_debug_info(infq_t *infq, char *buf, int32_t size)$/;"	f
+infq_destroy	src/infq.c	/^infq_destroy(infq_t *infq)$/;"	f
+infq_destroy_completely	src/infq.c	/^infq_destroy_completely(infq_t *infq)$/;"	f
+infq_done_dump	src/infq.c	/^infq_done_dump(infq_t *infq)$/;"	f
+infq_dump	src/infq.c	/^infq_dump(infq_t *infq, char *buf, int32_t buf_size, int32_t *data_size) {$/;"	f
+infq_dump_meta_t	src/infq.h	/^} infq_dump_meta_t;$/;"	t	typeref:struct:_infq_dump_meta_t
+infq_errno_log	src/logging.c	/^infq_errno_log(const char *file, int32_t lineno, const char *fmt, ...)$/;"	f
+infq_fetch_dump_meta	src/infq.c	/^infq_fetch_dump_meta(infq_t *infq)$/;"	f
+infq_fetch_stats	src/infq.c	/^infq_fetch_stats(infq_t *infq, infq_stats_t *stats)$/;"	f
+infq_fsize	src/infq.c	/^infq_fsize(infq_t *infq)$/;"	f
+infq_header_len	src/file_block.c	22;"	d	file:
+infq_init	src/infq.c	/^infq_init(const char *data_path, const char *name)$/;"	f
+infq_init_by_conf	src/infq.c	/^infq_init_by_conf(const infq_config_t *conf, const char *name)$/;"	f
+infq_just_pop	src/infq.c	/^infq_just_pop(infq_t *infq)$/;"	f
+infq_load	src/infq.c	/^infq_load(infq_t *infq, const char *buf, int32_t buf_size) {$/;"	f
+infq_log	src/logging.c	/^infq_log(int32_t level, const char *file, int32_t lineno, const char *fmt, ...)$/;"	f
+infq_log_t	src/logging.h	/^typedef void (*infq_log_t)(const char *msg);$/;"	t
+infq_msize	src/infq.c	/^infq_msize(infq_t *infq)$/;"	f
+infq_name	src/infq.h	/^    const char          *infq_name;$/;"	m	struct:_infq_dump_meta_t
+infq_name_len	src/infq.h	/^    int32_t             infq_name_len;$/;"	m	struct:_infq_dump_meta_t
+infq_offset_empty	src/file_block.c	23;"	d	file:
+infq_pop	src/infq.c	/^infq_pop(infq_t *infq, void *buf, int32_t buf_size, int32_t *sizeptr)$/;"	f
+infq_pop_zero_cp	src/infq.c	/^infq_pop_zero_cp(infq_t *infq, const void **dataptr, int32_t *sizeptr)$/;"	f
+infq_pread	src/utils.c	/^infq_pread(int32_t fd, void *buf, int32_t rlen, int32_t offset)$/;"	f
+infq_pthread_mutex_lock	src/utils.h	18;"	d
+infq_pthread_mutex_unlock	src/utils.h	30;"	d
+infq_push	src/infq.c	/^infq_push(infq_t *infq, void *data, int32_t size)$/;"	f
+infq_push_queue_jump	src/infq.c	/^infq_push_queue_jump(infq_t *infq)$/;"	f
+infq_pwrite	src/utils.c	/^infq_pwrite(int32_t fd, const void *buf, int32_t size, int32_t offset)$/;"	f
+infq_read	src/utils.c	/^infq_read(int32_t fd, void *buf, int32_t rlen)$/;"	f
+infq_size	src/infq.c	/^infq_size(infq_t *infq)$/;"	f
+infq_stats_t	src/infq.h	/^} infq_stats_t;$/;"	t	typeref:struct:_infq_stats_t
+infq_suspend_bg_exec	src/infq.c	/^int32_t infq_suspend_bg_exec(infq_t *infq, int32_t exec_type)$/;"	f
+infq_t	src/infq.h	/^typedef struct _infq_t infq_t;$/;"	t	typeref:struct:_infq_t
+infq_top	src/infq.c	/^infq_top(infq_t *infq, void *buf, int32_t buf_size, int32_t *sizeptr)$/;"	f
+infq_top_zero_cp	src/infq.c	/^infq_top_zero_cp(infq_t *infq, const void **dataptr, int32_t *sizeptr)$/;"	f
+infq_write	src/utils.c	/^infq_write(int32_t fd, const void *buf, int32_t size)$/;"	f
+is_suspended	src/infq.h	/^    int32_t     is_suspended;$/;"	m	struct:_infq_bg_exec_stats_t
+job_count	src/bg_job.h	/^    volatile int32_t    job_count;$/;"	m	struct:_bg_exec_t
+job_dup_check_t	src/bg_job.h	/^typedef int32_t (job_dup_check_t)(void *arg, void *last_job);$/;"	t
+job_info_destroy	src/infq_bg_jobs.c	/^job_info_destroy(void *arg)$/;"	f
+job_num	src/infq.h	/^    int32_t     job_num;$/;"	m	struct:_infq_bg_exec_stats_t
+jobs_head	src/bg_job.h	/^    bg_job_t            *jobs_head, *jobs_tail;$/;"	m	struct:_bg_exec_t
+jobs_tail	src/bg_job.h	/^    bg_job_t            *jobs_head, *jobs_tail;$/;"	m	struct:_bg_exec_t
+last	src/file_block_index.h	/^    int32_t         last;   \/\/ point to the position to next push$/;"	m	struct:_file_block_index_t
+last_block	src/mem_queue.h	/^    volatile int32_t        last_block;$/;"	m	struct:_mem_queue_t
+last_block	src/mem_queue.h	14;"	d
+last_offset	src/mem_block.h	/^    int32_t             last_offset;    \/* 'last_offset - 1' is the offset of the end of the last element.$/;"	m	struct:_mem_block_t
+link_pop_block_to_file	src/infq.c	/^link_pop_block_to_file(infq_t *infq, mem_block_t *block, int32_t blk_counter)$/;"	f
+load_exec	src/infq.c	/^    bg_exec_t           dump_exec, load_exec, unlink_exec; \/* Background executor of dumper, loader$/;"	m	struct:_infq_t	file:
+load_file_queue	src/infq.c	/^load_file_queue(infq_t *infq, infq_dump_meta_t *meta)$/;"	f
+load_job	src/infq.c	/^load_job(void *arg)$/;"	f
+load_job_dup_checker	src/infq_bg_jobs.c	/^load_job_dup_checker(void *arg, void *last_job)$/;"	f
+load_job_t	src/infq_bg_jobs.h	/^struct load_job_t {$/;"	s
+load_job_tostr	src/infq_bg_jobs.c	/^load_job_tostr(void *arg, char *buf, int32_t size)$/;"	f
+load_pop_queue	src/infq.c	/^load_pop_queue(infq_t *infq, infq_dump_meta_t *meta)$/;"	f
+loader	src/infq.h	/^    infq_bg_exec_stats_t    loader;$/;"	m	struct:_infq_stats_t
+logging	src/logging.c	/^logging_t logging = {default_debug, default_info, default_error};$/;"	v
+logging_t	src/logging.h	/^typedef struct _logging_t logging_t;$/;"	t	typeref:struct:_logging_t
+main	src/file_block_reader.c	/^main(int argc, char* argv[])$/;"	f
+main	src/main.c	/^main()$/;"	f
+main	src/multi_test.c	/^main(int argc, char* argv[]) {$/;"	f
+main	src/persistent_dump_test.c	/^main(int argc, char* argv[])$/;"	f
+main	src/persistent_load_test.c	/^main()$/;"	f
+main	test/file_block_test.cpp	/^int main(int argc, char* argv[])$/;"	f
+main	test/mem_block_test.cpp	/^int main(int argc, char* argv[])$/;"	f
+main	test/mem_queue_test.cpp	/^int main(int argc, char* argv[])$/;"	f
+make_sure_data_path	src/utils.c	/^make_sure_data_path(const char *data_path)$/;"	f
+max_idx	src/infq.h	/^    int64_t             max_idx;$/;"	m	struct:_popq_dump_meta_t
+max_idx	src/mem_queue.h	/^    volatile int64_t        max_idx;$/;"	m	struct:_mem_queue_t
+mem	src/mem_block.h	/^    char                mem[1];$/;"	m	struct:_mem_block_t
+mem_block	test/mem_block_test.cpp	/^    mem_block_t     *mem_block;$/;"	m	class:MemBlockTest	file:
+mem_block_at	src/mem_block.c	/^mem_block_at(mem_block_t *mem_block, int64_t global_idx, void *buf, int32_t buf_size, int32_t *sizeptr)$/;"	f
+mem_block_at_zero_cp	src/mem_block.c	/^mem_block_at_zero_cp(mem_block_t *mem_block, int64_t global_idx, const void **dataptr, int32_t *sizeptr)$/;"	f
+mem_block_avail	src/mem_block.h	16;"	d
+mem_block_debug_info	src/mem_block.c	/^mem_block_debug_info(mem_block_t *mem_block, char *buf, int32_t size)$/;"	f
+mem_block_destroy	src/mem_block.c	/^mem_block_destroy(mem_block_t *mem_block)$/;"	f
+mem_block_ele_size	src/mem_block.h	15;"	d
+mem_block_empty	src/mem_block.h	17;"	d
+mem_block_file_blk_no	src/mem_block.h	20;"	d
+mem_block_init	src/mem_block.c	/^mem_block_init(int32_t block_size)$/;"	f
+mem_block_just_pop	src/mem_block.c	/^mem_block_just_pop(mem_block_t *mem_block)$/;"	f
+mem_block_max_index	src/mem_block.h	19;"	d
+mem_block_min_index	src/mem_block.h	18;"	d
+mem_block_pop	src/mem_block.c	/^mem_block_pop(mem_block_t *mem_block, void *buf, int32_t buf_size, int32_t *sizeptr)$/;"	f
+mem_block_pop_zero_cp	src/mem_block.c	/^mem_block_pop_zero_cp(mem_block_t *mem_block, const void **dataptr, int32_t *sizeptr)$/;"	f
+mem_block_push	src/mem_block.c	/^mem_block_push(mem_block_t *mem_block, void *data, int32_t size)$/;"	f
+mem_block_reset	src/mem_block.c	/^mem_block_reset(mem_block_t *mem_block, int64_t start_index)$/;"	f
+mem_block_signature	src/mem_block.c	/^mem_block_signature(mem_block_t *mem_block, unsigned char digest[20])$/;"	f
+mem_block_size	src/infq.c	/^    int32_t             mem_block_size;         \/* The size of memory block  *\/$/;"	m	struct:_infq_t	file:
+mem_block_size	src/infq.h	/^    int32_t                 mem_block_size;$/;"	m	struct:_infq_stats_t
+mem_block_size	src/infq.h	/^    int32_t     mem_block_size;         \/* The size of memory block *\/$/;"	m	struct:_infq_config_t
+mem_block_t	src/mem_block.h	/^} mem_block_t;$/;"	t	typeref:struct:_mem_block_t
+mem_block_top	src/mem_block.c	/^mem_block_top(mem_block_t *mem_block, void *buf, int32_t buf_size, int32_t *sizeptr)$/;"	f
+mem_block_top_zero_cp	src/mem_block.c	/^mem_block_top_zero_cp(mem_block_t *mem_block, const void **dataptr, int32_t *sizeptr)$/;"	f
+mem_queue	test/mem_queue_test.cpp	/^    mem_queue_t     mem_queue;$/;"	m	class:MemQueueTest	file:
+mem_queue_add_pop_blk_cb	src/mem_queue.h	25;"	d
+mem_queue_add_push_blk_cb	src/mem_queue.h	26;"	d
+mem_queue_at	src/mem_queue.c	/^mem_queue_at(mem_queue_t *mem_queue, int64_t idx, void *buf, int32_t buf_size, int32_t *sizeptr)$/;"	f
+mem_queue_at_zero_cp	src/mem_queue.c	/^mem_queue_at_zero_cp(mem_queue_t *mem_queue, int64_t idx, const void **dataptr, int32_t *sizeptr)$/;"	f
+mem_queue_destroy	src/mem_queue.c	/^mem_queue_destroy(mem_queue_t *mem_queue)$/;"	f
+mem_queue_empty	src/mem_queue.h	21;"	d
+mem_queue_free_block_num	src/mem_queue.h	20;"	d
+mem_queue_full	src/mem_queue.h	15;"	d
+mem_queue_full_block_num	src/mem_queue.h	19;"	d
+mem_queue_has_full_block	src/mem_queue.h	16;"	d
+mem_queue_init	src/mem_queue.c	/^mem_queue_init(mem_queue_t *mem_queue, int32_t block_num, int32_t block_size)$/;"	f
+mem_queue_jump	src/mem_queue.c	/^mem_queue_jump(mem_queue_t *mem_queue)$/;"	f
+mem_queue_just_pop	src/mem_queue.c	/^mem_queue_just_pop(mem_queue_t *mem_queue)$/;"	f
+mem_queue_pop	src/mem_queue.c	/^mem_queue_pop(mem_queue_t *mem_queue, void *buf, int32_t buf_size, int32_t *sizeptr)$/;"	f
+mem_queue_pop_blk_cb_t	src/mem_queue.h	/^typedef int32_t (*mem_queue_pop_blk_cb_t)(void *arg, mem_block_t *blk);$/;"	t
+mem_queue_pop_zero_cp	src/mem_queue.c	/^mem_queue_pop_zero_cp(mem_queue_t *mem_queue, const void **dataptr, int32_t *sizeptr)$/;"	f
+mem_queue_push	src/mem_queue.c	/^mem_queue_push(mem_queue_t *mem_queue, int64_t ele_idx, void *data, int32_t size)$/;"	f
+mem_queue_push_blk_cb_t	src/mem_queue.h	/^typedef int32_t (*mem_queue_push_blk_cb_t)(void *arg);$/;"	t
+mem_queue_reset	src/mem_queue.c	/^mem_queue_reset(mem_queue_t *mem_queue)$/;"	f
+mem_queue_t	src/mem_queue.h	/^} mem_queue_t;$/;"	t	typeref:struct:_mem_queue_t
+mem_queue_top	src/mem_queue.c	/^mem_queue_top(mem_queue_t *mem_queue, void *buf, int32_t buf_size, int32_t *sizeptr)$/;"	f
+mem_queue_top_zero_cp	src/mem_queue.c	/^mem_queue_top_zero_cp(mem_queue_t *mem_queue, const void **dataptr, int32_t *sizeptr)$/;"	f
+mem_size	src/infq.h	/^    int32_t                 mem_size;$/;"	m	struct:_infq_stats_t
+mem_size	src/mem_block.h	/^    int32_t             mem_size;       \/* Size of the block *\/$/;"	m	struct:_mem_block_t
+min_idx	src/infq.h	/^    int64_t             min_idx;$/;"	m	struct:_popq_dump_meta_t
+min_idx	src/mem_queue.h	/^    volatile int64_t        min_idx;$/;"	m	struct:_mem_queue_t
+mu	src/bg_job.h	/^    pthread_mutex_t     mu;$/;"	m	struct:_bg_exec_t
+mu	src/file_queue.h	/^    pthread_mutex_t     mu;$/;"	m	struct:_file_queue_t
+mu	src/thread_safe_infq.c	/^    pthread_mutex_t     mu;$/;"	m	struct:_ts_infq_t	file:
+multi_mem_block	test/file_block_test.cpp	/^    mem_block_t     *single_mem_block, *multi_mem_block;$/;"	m	class:FileBlockTest	file:
+name	src/bg_job.h	/^    char                name[INFQ_MAX_PATH_SIZE];$/;"	m	struct:_bg_exec_t
+name	src/infq.c	/^    char                name[INFQ_NAME_MAX_LEN];    \/* Name of the InfQ *\/$/;"	m	struct:_infq_t	file:
+next	src/bg_job.h	/^    struct _bg_job_t    *next;$/;"	m	struct:_bg_job_t	typeref:struct:_bg_job_t::_bg_job_t
+next	src/file_block.h	/^    struct _file_block_t    *next;              \/* All the blocks in a file queue are organized into a$/;"	m	struct:_file_block_t	typeref:struct:_file_block_t::_file_block_t
+offset_array	src/file_block.h	/^    offset_array_t          offset_array;       \/* Mapping the offset of element by index *\/$/;"	m	struct:_file_block_t
+offset_array	src/mem_block.h	/^    offset_array_t      offset_array;   \/* Mapping the offset of element by index *\/$/;"	m	struct:_mem_block_t
+offset_array_cp	src/offset_array.c	/^offset_array_cp(offset_array_t *dist, const offset_array_t *src)$/;"	f
+offset_array_destroy	src/offset_array.c	/^offset_array_destroy(offset_array_t *offset_array)$/;"	f
+offset_array_expand	src/offset_array.c	/^offset_array_expand(offset_array_t *offset_array){$/;"	f
+offset_array_get	src/offset_array.c	/^offset_array_get(const offset_array_t *offset_array, int32_t idx, int32_t *offset)$/;"	f
+offset_array_incr_start	src/offset_array.c	/^offset_array_incr_start(offset_array_t *offset_array)$/;"	f
+offset_array_init	src/offset_array.c	/^offset_array_init(offset_array_t *offset_array)$/;"	f
+offset_array_msize	src/offset_array.h	15;"	d
+offset_array_push	src/offset_array.c	/^offset_array_push(offset_array_t *offset_array, uint32_t offset)$/;"	f
+offset_array_reset	src/offset_array.c	/^offset_array_reset(offset_array_t *offset_array)$/;"	f
+offset_array_size	src/offset_array.c	/^offset_array_size(const offset_array_t *offset_array)$/;"	f
+offset_array_t	src/offset_array.h	/^} offset_array_t;$/;"	t	typeref:struct:_offset_array_t
+offsets	src/offset_array.h	/^    int32_t     *offsets;$/;"	m	struct:_offset_array_t
+parse_file_blk_info	src/file_block_reader.c	/^parse_file_blk_info(const char *fpath, char *dpath_buf, char *prefix_buf, int *suffix)$/;"	f
+pop_blk_cb	src/mem_queue.h	/^    mem_queue_pop_blk_cb_t  pop_blk_cb;$/;"	m	struct:_mem_queue_t
+pop_blk_cb_arg	src/mem_queue.h	/^    void                    *pop_blk_cb_arg;$/;"	m	struct:_mem_queue_t
+pop_block_suffix	src/infq.c	/^    int32_t             pop_block_suffix;       \/* The suffix of the next pop block when dumping *\/$/;"	m	struct:_infq_t	file:
+pop_mu	src/infq.c	/^    pthread_mutex_t     push_mu, pop_mu;        \/* Mutexes for push queue and pop queue *\/$/;"	m	struct:_infq_t	file:
+pop_queue	src/infq.c	/^    mem_queue_t         push_queue, pop_queue;$/;"	m	struct:_infq_t	file:
+pop_run	src/multi_test.c	/^pop_run(void *a)$/;"	f
+popq_blocks_num	src/infq.h	/^    int32_t                 popq_blocks_num;$/;"	m	struct:_infq_stats_t
+popq_blocks_num	src/infq.h	/^    int32_t     popq_blocks_num;        \/* Number of memory blocks in pop queue*\/$/;"	m	struct:_infq_config_t
+popq_dump_meta_t	src/infq.h	/^} popq_dump_meta_t;$/;"	t	typeref:struct:_popq_dump_meta_t
+popq_meta	src/infq.h	/^    popq_dump_meta_t    popq_meta;$/;"	m	struct:_infq_dump_meta_t
+popq_used_blocks	src/infq.h	/^    int32_t                 popq_used_blocks;$/;"	m	struct:_infq_stats_t
+print_file_blk_info	src/file_block_reader.c	/^print_file_blk_info(file_block_t *fblock)$/;"	f
+push_blk_cb	src/mem_queue.h	/^    mem_queue_push_blk_cb_t push_blk_cb;$/;"	m	struct:_mem_queue_t
+push_blk_cb_arg	src/mem_queue.h	/^    void                    *push_blk_cb_arg;$/;"	m	struct:_mem_queue_t
+push_mu	src/infq.c	/^    pthread_mutex_t     push_mu, pop_mu;        \/* Mutexes for push queue and pop queue *\/$/;"	m	struct:_infq_t	file:
+push_pop_test	src/main.c	/^void push_pop_test(infq_t *q)$/;"	f
+push_queue	src/infq.c	/^    mem_queue_t         push_queue, pop_queue;$/;"	m	struct:_infq_t	file:
+push_run	src/multi_test.c	/^push_run(void *a)$/;"	f
+push_test	src/main.c	/^void push_test(infq_t *q)$/;"	f
+pushq_blocks_num	src/infq.h	/^    int32_t                 pushq_blocks_num;$/;"	m	struct:_infq_stats_t
+pushq_blocks_num	src/infq.h	/^    int32_t     pushq_blocks_num;       \/* Number of memory blocks in push queue *\/$/;"	m	struct:_infq_config_t
+pushq_used_blocks	src/infq.h	/^    int32_t                 pushq_used_blocks;$/;"	m	struct:_infq_stats_t
+q	src/multi_test.c	/^ts_infq_t   *q;$/;"	v
+q	src/thread_safe_infq.c	/^    infq_t              *q;$/;"	m	struct:_ts_infq_t	file:
+rol	src/sha1.c	31;"	d	file:
+runnable	src/bg_job.h	/^    runnable_t          runnable;$/;"	m	struct:_bg_job_t
+runnable_t	src/bg_job.h	/^typedef int32_t (*runnable_t)(void *arg);$/;"	t
+search_block_by_idx	src/mem_queue.c	/^search_block_by_idx(mem_queue_t *mem_queue, int64_t idx)$/;"	f
+signature	src/file_block.h	/^    unsigned char           signature[INFQ_SIGNATURE_LEN];  \/* The signature of the content, used to match the$/;"	m	struct:_file_block_t
+single_mem_block	test/file_block_test.cpp	/^    mem_block_t     *single_mem_block, *multi_mem_block;$/;"	m	class:FileBlockTest	file:
+size	src/offset_array.h	/^    int32_t     size;$/;"	m	struct:_offset_array_t
+start	src/infq.h	/^    int32_t     start;$/;"	m	struct:_file_suffix_range
+start_block	src/infq_bg_jobs.h	/^    int32_t     start_block;$/;"	m	struct:dump_job_t
+start_idx	src/offset_array.h	/^    int32_t     start_idx;$/;"	m	struct:_offset_array_t
+start_index	src/file_block.h	/^    int64_t                 start_index;        \/* Global index of the first element *\/$/;"	m	struct:_file_block_t
+start_index	src/mem_block.h	/^    volatile int64_t    start_index;    \/* Global index of the first element in the block *\/$/;"	m	struct:_mem_block_t
+state	src/sha1.h	/^    u_int32_t state[5];$/;"	m	struct:__anon1
+stopped	src/bg_job.h	/^    volatile int8_t     stopped;$/;"	m	struct:_bg_exec_t
+suffix	src/file_block.h	/^    int32_t                 suffix;             \/* Suffix of the file's name of the file block.$/;"	m	struct:_file_block_t
+suffix_end	src/version_manager.h	/^    int64_t     suffix_end;$/;"	m	struct:_file_list_t
+suffix_start	src/version_manager.h	/^    int64_t     suffix_start;$/;"	m	struct:_file_list_t
+suspended	src/bg_job.h	/^    volatile int8_t     suspended;$/;"	m	struct:_bg_exec_t
+swap_mem_block	src/infq.c	/^swap_mem_block(infq_t *infq)$/;"	f
+tid	src/bg_job.h	/^    pthread_t           tid;$/;"	m	struct:_bg_exec_t
+time_us	src/utils.c	/^time_us()$/;"	f
+tmp_mem_block	src/infq.c	/^    mem_block_t         *tmp_mem_block;         \/* A temporary memory block used to load file block *\/$/;"	m	struct:_infq_t	file:
+to_rm_files_range	src/utils.c	/^void to_rm_files_range($/;"	f
+tostr	src/bg_job.h	/^    tostr_t             tostr;$/;"	m	struct:_bg_job_t
+tostr_t	src/bg_job.h	/^typedef int32_t (*tostr_t)(void *arg, char *buf, int32_t size);$/;"	t
+total_fsize	src/file_queue.h	/^    volatile int32_t    total_fsize;                \/* Total file size of the file queue *\/$/;"	m	struct:_file_queue_t
+ts_infq_at	src/thread_safe_infq.c	/^ts_infq_at(ts_infq_t *infq, int32_t idx, void *buf, int32_t buf_size, int32_t *size)$/;"	f
+ts_infq_at_zero_cp	src/thread_safe_infq.c	/^ts_infq_at_zero_cp(ts_infq_t *infq, int32_t idx, const void **dataptr, int32_t *size)$/;"	f
+ts_infq_destroy	src/thread_safe_infq.c	/^void ts_infq_destroy(ts_infq_t *infq)$/;"	f
+ts_infq_fsize	src/thread_safe_infq.c	/^ts_infq_fsize(ts_infq_t *infq)$/;"	f
+ts_infq_init	src/thread_safe_infq.c	/^ts_infq_init(const char *data_path)$/;"	f
+ts_infq_just_pop	src/thread_safe_infq.c	/^ts_infq_just_pop(ts_infq_t *infq)$/;"	f
+ts_infq_msize	src/thread_safe_infq.c	/^ts_infq_msize(ts_infq_t *infq)$/;"	f
+ts_infq_pop	src/thread_safe_infq.c	/^ts_infq_pop(ts_infq_t *infq, void *buf, int32_t buf_size, int32_t *size)$/;"	f
+ts_infq_pop_zero_cp	src/thread_safe_infq.c	/^ts_infq_pop_zero_cp(ts_infq_t *infq, const void **dataptr, int32_t *size)$/;"	f
+ts_infq_push	src/thread_safe_infq.c	/^ts_infq_push(ts_infq_t *infq, void *data, int32_t size)$/;"	f
+ts_infq_size	src/thread_safe_infq.c	/^ts_infq_size(ts_infq_t *infq)$/;"	f
+ts_infq_t	src/thread_safe_infq.h	/^typedef struct _ts_infq_t   ts_infq_t;$/;"	t	typeref:struct:_ts_infq_t
+ts_infq_top	src/thread_safe_infq.c	/^ts_infq_top(ts_infq_t *infq, void *buf, int32_t buf_size, int32_t *size)$/;"	f
+ts_infq_top_zero_cp	src/thread_safe_infq.c	/^ts_infq_top_zero_cp(ts_infq_t *infq, const void **dataptr, int32_t *size)$/;"	f
+uname_S	src/Makefile	/^uname_S := $(shell sh -c 'uname -s 2>\/dev\/null || echo not')$/;"	m
+unlink_exec	src/infq.c	/^    bg_exec_t           dump_exec, load_exec, unlink_exec; \/* Background executor of dumper, loader$/;"	m	struct:_infq_t	file:
+unlink_job	src/infq_bg_jobs.c	/^int32_t unlink_job(void *arg)$/;"	f
+unlink_job_t	src/infq_bg_jobs.h	/^} unlink_job_t;$/;"	t	typeref:struct:_unlink_job_t
+unlink_job_tostr	src/infq_bg_jobs.c	/^unlink_job_tostr(void *arg, char *buf, int32_t size)$/;"	f
+unlinker	src/infq.h	/^    infq_bg_exec_stats_t    unlinker;$/;"	m	struct:_infq_stats_t
+version_manager_t	src/version_manager.h	/^} version_manager_t;$/;"	t	typeref:struct:_version_manager_t
+write_data	src/file_block.c	/^write_data(file_block_t *file_block, mem_block_t *mem_block)$/;"	f
+write_header	src/file_block.c	/^write_header(file_block_t *file_block, mem_block_t *mem_block)$/;"	f
+~FileBlockTest	test/file_block_test.cpp	/^    ~FileBlockTest() {}$/;"	f	class:FileBlockTest
+~MemBlockTest	test/mem_block_test.cpp	/^    virtual ~MemBlockTest() {}$/;"	f	class:MemBlockTest
+~MemQueueTest	test/mem_queue_test.cpp	/^    virtual ~MemQueueTest() {}$/;"	f	class:MemQueueTest
